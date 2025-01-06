@@ -1,0 +1,19 @@
+package:
+  name: apexcharts
+  dependencies:
+    - console
+    - contravariant
+    - effect
+    - foreign
+    - options
+    - prelude
+    - web-dom
+  test:
+    main: Test.Main
+    dependencies:
+    - aff
+    - spec
+workspace:
+  packageSet:
+    registry: 62.2.6
+  extraPackages: {}
