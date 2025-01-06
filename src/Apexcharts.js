@@ -1,3 +1,6 @@
+"use strict"
+import ApexCharts from "apexcharts";
+
 export const _createChart = selector => apexoptions => () => {
     return new ApexCharts(document.querySelector(selector), apexoptions);
 };
